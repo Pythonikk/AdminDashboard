@@ -1,5 +1,6 @@
 html {
   font-family: 'Fira Code', monospace;
+  word-spacing: -3px;
 }
 
 .page-container {
@@ -282,7 +283,7 @@ header {
 }
 
 .announcements {
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1 / 2;
 }
 
 .announcements h5 {
@@ -318,13 +319,40 @@ header {
 }
 
 .trending {
-  grid-column: 2;
-}
-
-.trending > h4 {
-
+  grid-area: 1 / 2;
+  align-self: end;
 }
 
 .trending > .container {
+  display: grid;
   grid-template: repeat(4, 1fr);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+  row-gap: 20px;
 }
+
+.trending > .container div {
+  display: grid;
+  grid-template-columns: 0fr 1fr; 
+  column-gap: 10px;
+}
+
+.trending > .container img {
+  grid-area: 1 / 1 / span 2 / span 1;
+  height: 40px;
+  width: 40px;
+}
+
+.trending > .container span:nth-of-type(1) {
+  grid-area: 1 / 2;
+  font-weight: 600;
+}
+
+.trending > .container span:nth-of-type(2) {
+  grid-area: 2 / 2;
+  font-size: 90%;
+}
+
