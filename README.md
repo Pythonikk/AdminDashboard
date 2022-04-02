@@ -4,4 +4,6 @@ A project assigned by [The Odin Project](https://www.theodinproject.com/lessons/
 
 Given that the primary focus was to become comfortable with Grid, I chose to make every element in my project a grid or grid element, and in most cases-- both. This follows my thought process of the last css project I did, a [Sign Up Form](https://github.com/Pythonikk/SignUpForm), where I discovered some limitations of making every element a flexbox or flex item. Not that it's a matter of either/or; grid and flexbox are not replacements for each other.
 
-Going forward, I think I have a clearer view of where Grid will be most appropriate, where Flexbox will be, and most powerfully-- how they can work together. The way is paved for my next CSS layout project to combine these lessons.   
+Going forward, I think I have a clearer view of where Grid will be most appropriate, where Flexbox will be, and most powerfully-- how they can work together. The way is paved for my next CSS layout project to combine these lessons.
+
+Published on Github Pages: [Admin Dashboard](https://pythonikk.github.io/AdminDashboard/)
