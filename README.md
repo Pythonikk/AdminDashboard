@@ -6,4 +6,4 @@ Given that the primary focus was to become comfortable with Grid, I chose to mak
 
 Going forward, I think I have a clearer view of where Grid will be most appropriate, where Flexbox will be, and most powerfully-- how they can work together. The way is paved for my next CSS layout project to combine these lessons.
 
-Published on Github Pages: [Admin Dashboard](https://pythonikk.github.io/AdminDashboard/)
+Published on Github Pages: [Admin Dashboard](https://technikka.github.io/AdminDashboard/)
