@@ -12,3 +12,9 @@ Check it out here: [Admin Dashboard](https://technikka.github.io/AdminDashboard/
 * CSS3
 * CSS Grid
 * HTML5
+
+
+
+### Screenshots
+
+<img src="screenshot.png" title="screenshot of admin dashboard layout" alt="screenshot of admin dashboard layout" width="600px">
